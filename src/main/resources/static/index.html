@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b0b">
+  <title>STRATA / ResilientLLM Gateway</title>
+  <meta name="description" content="A live control deck for resilient LLM traffic.">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="app-shell">
+    <aside class="rail" aria-label="System rail">
+      <div class="rail-mark">S<span>/</span></div>
+      <div class="rail-line"></div>
+      <span class="rail-text">RESILIENCE ENGINE&nbsp; // &nbsp;OPS DECK</span>
+      <div class="rail-line lower"></div>
+      <span class="rail-bottom">01</span>
+    </aside>
+    <div class="main-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Strata home">
+          <svg class="brand-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M4 33L18 6h10L15 33h29L37 46H4l7-13" stroke="currentColor" stroke-width="2.5"/><path d="M26 6l18 27" stroke="#f36e48" stroke-width="2.5"/></svg>
+          <span><strong>STRATA</strong><small>LLM GATEWAY // V1.0</small></span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a class="active" href="#overview"><span>01</span> Overview</a>
+          <a href="#providers"><span>02</span> Providers</a>
+          <a href="#console"><span>03</span> Console</a>
+          <a href="/actuator/prometheus" target="_blank" rel="noreferrer"><span>04</span> Metrics <span class="external">↗</span></a>
+        </nav>
+        <div class="header-actions">
+          <div id="connectionBadge" class="connection-badge offline"><span class="signal-dot"></span><span id="connectionLabel">OFFLINE</span></div>
+          <button id="connectButton" class="icon-button" type="button" aria-label="Configure connection" title="Configure connection">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M10 4H5v16h14V4h-5M9 9l3-3 3 3M12 6v9" stroke="currentColor" stroke-width="1.6" stroke-linecap="square"/></svg>
+          </button>
+        </div>
+      </header>
+
+      <main id="top">
+        <div class="topline"><span>OPS TERMINAL / LIVE SYSTEM</span><span>UTC <time id="clock">00:00:00</time></span><span class="topline-right">SYSTEM INDEX_001 <i></i> READING TELEMETRY</span></div>
+        <section id="overview" class="hero">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="slash">/</span> MISSION CONTROL <span class="eyebrow-line"></span> 001</div>
+            <h1>OUTRUN<br><em>THE FAILURE.</em></h1>
+            <p>Every request finds a way through. Route intelligently, recover instantly, and keep your models online when the network turns hostile.</p>
+            <div class="hero-actions"><a class="primary-button" href="#console">LAUNCH A REQUEST <span>↗</span></a><a class="text-link" href="#providers">VIEW SYSTEM TOPOLOGY <span>→</span></a></div>
+          </div>
+          <div class="hero-visual" aria-label="Three-provider routing visualization">
+            <div class="visual-corner top-left"></div><div class="visual-corner bottom-right"></div>
+            <div class="visual-heading"><span>ROUTING MATRIX</span><span>FIG / 01</span></div>
+            <svg class="matrix" viewBox="0 0 600 430" fill="none" aria-hidden="true">
+              <defs><linearGradient id="pathGlow" x1="120" y1="200" x2="510" y2="200"><stop stop-color="#cbe5b9"/><stop offset=".53" stop-color="#eeb471"/><stop offset="1" stop-color="#f26945"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+              <path class="matrix-grid" d="M0 60H600M0 160H600M0 260H600M0 360H600M75 0V430M175 0V430M275 0V430M375 0V430M475 0V430M575 0V430"/>
+              <circle class="orbit orbit-one" cx="300" cy="218" r="145"/><circle class="orbit orbit-two" cx="300" cy="218" r="103"/><circle class="orbit orbit-three" cx="300" cy="218" r="60"/>
+              <path class="route route-one" d="M95 220H185L244 162H338L428 104H510"/><path class="route route-two" d="M95 220H184L246 220H344L432 220H510"/><path class="route route-three" d="M95 220H185L244 278H338L428 334H510"/>
+              <path class="route-active" d="M95 220H185L244 162H338L428 104H510" stroke="url(#pathGlow)"/>
+              <circle cx="95" cy="220" r="24" fill="#0d1110" stroke="#b4e395" stroke-width="2"/><circle cx="95" cy="220" r="6" fill="#b4e395" filter="url(#glow)"/>
+              <circle cx="510" cy="104" r="12" fill="#0d1110" stroke="#f26945" stroke-width="2"/><circle cx="510" cy="104" r="4" fill="#f26945" filter="url(#glow)"/>
+              <circle cx="510" cy="220" r="12" fill="#0d1110" stroke="#8d9d9a" stroke-width="2"/><circle cx="510" cy="220" r="4" fill="#8d9d9a"/>
+              <circle cx="510" cy="334" r="12" fill="#0d1110" stroke="#8d9d9a" stroke-width="2"/><circle cx="510" cy="334" r="4" fill="#8d9d9a"/>
+              <text x="66" y="268" class="matrix-text">INBOUND</text><text x="464" y="77" class="matrix-text">PRIMARY</text><text x="456" y="260" class="matrix-text">SECONDARY</text><text x="469" y="374" class="matrix-text">TERTIARY</text>
+              <path d="M278 200l22-16 22 16v36l-22 16-22-16z" fill="#101613" stroke="#eb9b69" stroke-width="2"/><path d="M288 218h24M300 206v24" stroke="#eb9b69" stroke-width="2"/>
+            </svg>
+            <div class="visual-footer"><span><span class="tiny-diamond"></span> SMART FAILOVER ENABLED</span><span>03 / NODES</span></div>
+          </div>
+        </section>
+
+        <section class="section metrics-section" aria-labelledby="metrics-title">
+          <div class="section-heading"><div><span class="section-index">01 / TELEMETRY</span><h2 id="metrics-title">THE PULSE<span class="accent">.</span></h2></div><span class="section-side">UPDATED EVERY 03 SEC <span class="pulse-square"></span></span></div>
+          <div class="metrics-grid">
+            <article class="metric-card"><div class="metric-top"><span>REQUEST VELOCITY</span><span>↗</span></div><div class="metric-value"><strong id="rpsValue">--</strong><small>REQ / SEC</small></div><div class="mini-bars" id="rpsBars" aria-hidden="true"></div><div class="metric-bottom">CURRENT 5 SECOND WINDOW <span>01</span></div></article>
+            <article class="metric-card"><div class="metric-top"><span>TAIL LATENCY</span><span>◈</span></div><div class="metric-value"><strong id="p95Value">--</strong><small>MS / P95</small></div><div class="metric-axis"><span>0</span><span>250</span><span>500</span><span>1000+</span></div><div class="latency-track"><div id="latencyFill"></div></div><div class="metric-bottom">LAST 60 SECONDS <span>02</span></div></article>
+            <article class="metric-card"><div class="metric-top"><span>SEMANTIC CACHE</span><span>◇</span></div><div class="metric-value"><strong id="cacheValue">--</strong><small>% HIT RATE</small></div><div class="segmented" id="cacheSegments" aria-hidden="true"></div><div class="metric-bottom">MINILM + REDIS VECTOR <span>03</span></div></article>
+            <article class="metric-card"><div class="metric-top"><span>PROVIDER CALLS SAVED</span><span>⌁</span></div><div class="metric-value"><strong id="savedValue">--</strong><small>% REDUCTION</small></div><div class="savings-orbit"><div></div><span id="savedCount">--</span><small>HITS</small></div><div class="metric-bottom">COMPARED TO DIRECT CALLS <span>04</span></div></article>
+          </div>
+        </section>
+
+        <section class="section flow-section" aria-labelledby="flow-title">
+          <div class="section-heading"><div><span class="section-index">02 / TRAFFIC FLOW</span><h2 id="flow-title">SIGNAL IN MOTION<span class="accent">.</span></h2></div><div class="legend"><span><i class="legend-orange"></i> REQUESTS</span><span><i class="legend-grey"></i> BASELINE</span></div></div>
+          <div class="chart-panel"><div class="chart-header"><div><span>LIVE THROUGHPUT</span><strong id="chartTotal">0 TOTAL REQUESTS</strong></div><span>LAST 30 SECONDS <b>●</b> LIVE</span></div><div class="chart-body"><div class="chart-y"><span id="chartMax">10</span><span>0</span></div><svg id="trafficChart" viewBox="0 0 1000 220" preserveAspectRatio="none" role="img" aria-label="Live request throughput chart"><defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f26b46" stop-opacity=".28"/><stop offset="1" stop-color="#f26b46" stop-opacity="0"/></linearGradient></defs><path class="chart-grid" d="M0 10H1000M0 60H1000M0 110H1000M0 160H1000M0 210H1000"/><path id="chartArea" fill="url(#area)" d=""/><path id="chartLine" fill="none" stroke="#f47752" stroke-width="3" d=""/></svg></div><div class="chart-x"><span>-30 SEC</span><span>-20 SEC</span><span>-10 SEC</span><span>NOW</span></div></div>
+        </section>
+
+        <section id="providers" class="section providers-section" aria-labelledby="providers-title">
+          <div class="section-heading"><div><span class="section-index">03 / INFRASTRUCTURE</span><h2 id="providers-title">PROVIDER STACK<span class="accent">.</span></h2></div><span class="section-side">PRIORITY ROUTING <span class="chevron">//</span> AUTOMATIC FAILOVER</span></div>
+          <div class="providers-grid" id="providerGrid"><div class="provider-skeleton">CONNECT TO VIEW PROVIDER STATE</div></div>
+          <div class="provider-note"><span>✳</span><p>OPEN circuits are skipped until their recovery window. Disable a mock node to watch traffic reroute in real time.</p><span class="provider-note-right">AUTO RECOVERY / 12S</span></div>
+        </section>
+
+        <section class="lower-grid">
+          <div class="section activity-section"><div class="section-heading"><div><span class="section-index">04 / EVENT STREAM</span><h2>RECENT TRAFFIC<span class="accent">.</span></h2></div><span class="section-side">LATEST 12</span></div><div class="activity-panel"><div class="activity-head"><span>TIME</span><span>PROVIDER</span><span>CACHE</span><span>LATENCY</span><span>STATUS</span></div><div id="activityRows" class="activity-rows"><div class="empty-state">No requests recorded. Launch a request to wake the system.</div></div></div></div>
+          <div id="console" class="section console-section"><div class="section-heading"><div><span class="section-index">05 / TEST CONSOLE</span><h2>SEND A SIGNAL<span class="accent">.</span></h2></div><span class="section-side">OPENAI COMPATIBLE</span></div><div class="console-panel"><label for="apiKey">BEARER API KEY</label><input id="apiKey" autocomplete="off" value="demo-key" aria-label="Bearer API key"><label for="prompt">MESSAGE</label><textarea id="prompt" rows="4" spellcheck="false">Explain how a circuit breaker protects a service in one sentence.</textarea><div class="console-controls"><label class="bypass-label"><input id="cacheBypass" type="checkbox"><span>Bypass cache</span></label><span>MODEL: MOCK-1</span></div><button id="sendButton" class="primary-button send-button" type="button">EXECUTE REQUEST <span>↗</span></button><div class="console-output"><div class="output-label"><span>RESPONSE OUTPUT</span><span id="responseMeta">AWAITING INPUT</span></div><pre id="responseText">// response will appear here</pre></div></div></div>
+        </section>
+      </main>
+      <footer><div><strong>STRATA<span>/</span></strong> RESILIENTLLM GATEWAY</div><div>BUILT FOR THE MOMENT EVERYTHING ELSE FAILS.</div><div>SYS // 001 <span>© 2026</span></div></footer>
+    </div>
+  </div>
+
+  <dialog id="connectionDialog" class="connection-dialog"><form method="dialog"><div class="dialog-top"><span>CONNECTION / SETTINGS</span><button type="submit" class="dialog-close" aria-label="Close">×</button></div><h2>LINK TO<br><em>THE GATEWAY.</em></h2><p>Enter the admin token to read live telemetry and control mock providers. The token stays in this browser tab.</p><label for="adminToken">ADMIN TOKEN</label><input id="adminToken" type="password" autocomplete="off" placeholder="Enter admin token"><div class="dialog-actions"><button id="saveConnection" class="primary-button" value="connect" type="button">CONNECT <span>↗</span></button><span id="connectionError" role="status"></span></div></form></dialog>
+</body>
+</html>

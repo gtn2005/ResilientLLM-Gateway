@@ -1,0 +1,64 @@
+spring:
+  application:
+    name: resilient-llm-gateway
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      timeout: 2s
+server:
+  port: ${PORT:8080}
+  tomcat:
+    threads:
+      max: 250
+logging:
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{requestId:-none}] %logger{32} - %msg%n'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  endpoint:
+    health:
+      probes:
+        enabled: true
+  metrics:
+    distribution:
+      percentiles-histogram:
+        gateway.request.duration: true
+        gateway.provider.duration: true
+      slo:
+        gateway.request.duration: 50ms,100ms,250ms,500ms,1s,2s,5s
+gateway:
+  mode: ${GATEWAY_MODE:gateway}
+  admin-token: ${ADMIN_TOKEN:local-dev-only}
+  request-timeout: 3s
+  rate-limit:
+    capacity: ${RATE_LIMIT_CAPACITY:2000}
+    refill-per-second: ${RATE_LIMIT_REFILL_PER_SECOND:500}
+  cache:
+    enabled: ${CACHE_ENABLED:true}
+    threshold: ${CACHE_THRESHOLD:0.92}
+    ttl: 1h
+    audit-sample-rate: 0.05
+    embedding-model-path: ${EMBEDDING_MODEL_PATH:/opt/models/all-MiniLM-L6-v2}
+  mock:
+    latency-ms: ${MOCK_LATENCY_MS:80}
+    error-rate: ${MOCK_ERROR_RATE:0}
+  providers:
+    - id: primary
+      type: ${PRIMARY_TYPE:mock}
+      base-url: ${PRIMARY_URL:http://localhost:8081}
+      model: ${PRIMARY_MODEL:mock-1}
+      api-key: ${PRIMARY_API_KEY:}
+    - id: secondary
+      type: ${SECONDARY_TYPE:mock}
+      base-url: ${SECONDARY_URL:http://localhost:8082}
+      model: ${SECONDARY_MODEL:mock-1}
+      api-key: ${SECONDARY_API_KEY:}
+    - id: tertiary
+      type: ${TERTIARY_TYPE:mock}
+      base-url: ${TERTIARY_URL:http://localhost:8083}
+      model: ${TERTIARY_MODEL:mock-1}
+      api-key: ${TERTIARY_API_KEY:}

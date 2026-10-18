@@ -1,0 +1,104 @@
+name: resilient-llm-gateway
+services:
+  gateway:
+    image: resilient-llm-gateway:local
+    build: .
+    environment:
+      REDIS_HOST: redis
+      PRIMARY_URL: ${PRIMARY_URL:-http://mock-primary:8080}
+      SECONDARY_URL: ${SECONDARY_URL:-http://mock-secondary:8080}
+      TERTIARY_URL: ${TERTIARY_URL:-http://mock-tertiary:8080}
+      ADMIN_TOKEN: ${ADMIN_TOKEN:-local-dev-only}
+      PRIMARY_TYPE: ${PRIMARY_TYPE:-mock}
+      SECONDARY_TYPE: ${SECONDARY_TYPE:-mock}
+      TERTIARY_TYPE: ${TERTIARY_TYPE:-mock}
+      PRIMARY_MODEL: ${PRIMARY_MODEL:-mock-1}
+      SECONDARY_MODEL: ${SECONDARY_MODEL:-mock-1}
+      TERTIARY_MODEL: ${TERTIARY_MODEL:-mock-1}
+      PRIMARY_API_KEY: ${PRIMARY_API_KEY:-}
+      SECONDARY_API_KEY: ${SECONDARY_API_KEY:-}
+      TERTIARY_API_KEY: ${TERTIARY_API_KEY:-}
+      CACHE_ENABLED: ${CACHE_ENABLED:-true}
+      CACHE_THRESHOLD: ${CACHE_THRESHOLD:-0.92}
+      RATE_LIMIT_CAPACITY: ${RATE_LIMIT_CAPACITY:-2000}
+      RATE_LIMIT_REFILL_PER_SECOND: ${RATE_LIMIT_REFILL_PER_SECOND:-500}
+    ports:
+      - "127.0.0.1:8080:8080"
+    depends_on:
+      redis:
+        condition: service_healthy
+      mock-primary:
+        condition: service_healthy
+      mock-secondary:
+        condition: service_healthy
+      mock-tertiary:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8080/actuator/health"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+  redis:
+    image: redis/redis-stack-server:7.4.0-v8
+    ports:
+      - "127.0.0.1:6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  mock-primary:
+    image: resilient-llm-gateway:local
+    build: .
+    environment:
+      GATEWAY_MODE: mock
+      MOCK_NAME: primary
+      MOCK_LATENCY_MS: 85
+    ports:
+      - "127.0.0.1:8081:8080"
+    healthcheck: &mock-health
+      test: ["CMD", "curl", "-fsS", "http://localhost:8080/actuator/health"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+  mock-secondary:
+    image: resilient-llm-gateway:local
+    build: .
+    environment:
+      GATEWAY_MODE: mock
+      MOCK_NAME: secondary
+      MOCK_LATENCY_MS: 105
+    ports:
+      - "127.0.0.1:8082:8080"
+    healthcheck: *mock-health
+  mock-tertiary:
+    image: resilient-llm-gateway:local
+    build: .
+    environment:
+      GATEWAY_MODE: mock
+      MOCK_NAME: tertiary
+      MOCK_LATENCY_MS: 120
+    ports:
+      - "127.0.0.1:8083:8080"
+    healthcheck: *mock-health
+  prometheus:
+    image: prom/prometheus:v3.5.0
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    ports:
+      - "127.0.0.1:9090:9090"
+    depends_on:
+      gateway:
+        condition: service_healthy
+  grafana:
+    image: grafana/grafana:12.1.1
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-local-dev-only}
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./grafana/dashboards:/var/lib/grafana/dashboards:ro
+    ports:
+      - "127.0.0.1:3000:3000"
+    depends_on:
+      - prometheus

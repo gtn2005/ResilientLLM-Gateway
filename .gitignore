@@ -1,0 +1,9 @@
+.env
+.idea/
+.vscode/
+target/
+.DS_Store
+*.log
+bench/*.json
+!bench/dataset.jsonl
+

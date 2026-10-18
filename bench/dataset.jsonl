@@ -1,0 +1,300 @@
+{"prompt": "Explain a circuit breaker protecting an LLM provider in plain language.", "family": "a circuit breaker protecting an LLM provider", "kind": "base"}
+{"prompt": "Give one practical example of a circuit breaker protecting an LLM provider.", "family": "a circuit breaker protecting an LLM provider", "kind": "base"}
+{"prompt": "What is the main benefit of a circuit breaker protecting an LLM provider?", "family": "a circuit breaker protecting an LLM provider", "kind": "base"}
+{"prompt": "Describe a common failure mode of a circuit breaker protecting an LLM provider.", "family": "a circuit breaker protecting an LLM provider", "kind": "base"}
+{"prompt": "How would you monitor a circuit breaker protecting an LLM provider?", "family": "a circuit breaker protecting an LLM provider", "kind": "base"}
+{"prompt": "Summarize a circuit breaker protecting an LLM provider in two sentences.", "family": "a circuit breaker protecting an LLM provider", "kind": "base"}
+{"prompt": "What metric best shows the impact of a circuit breaker protecting an LLM provider?", "family": "a circuit breaker protecting an LLM provider", "kind": "base"}
+{"prompt": "When should a team use a circuit breaker protecting an LLM provider?", "family": "a circuit breaker protecting an LLM provider", "kind": "base"}
+{"prompt": "Give a short checklist for a circuit breaker protecting an LLM provider.", "family": "a circuit breaker protecting an LLM provider", "kind": "base"}
+{"prompt": "What tradeoff does a circuit breaker protecting an LLM provider introduce?", "family": "a circuit breaker protecting an LLM provider", "kind": "base"}
+{"prompt": "Describe how to test a circuit breaker protecting an LLM provider.", "family": "a circuit breaker protecting an LLM provider", "kind": "base"}
+{"prompt": "Write a concise operator note about a circuit breaker protecting an LLM provider.", "family": "a circuit breaker protecting an LLM provider", "kind": "base"}
+{"prompt": "How does a circuit breaker protecting an LLM provider affect latency?", "family": "a circuit breaker protecting an LLM provider", "kind": "base"}
+{"prompt": "What configuration matters most for a circuit breaker protecting an LLM provider?", "family": "a circuit breaker protecting an LLM provider", "kind": "base"}
+{"prompt": "Explain the recovery path for a circuit breaker protecting an LLM provider.", "family": "a circuit breaker protecting an LLM provider", "kind": "base"}
+{"prompt": "In simple terms, explain a circuit breaker protecting an LLM provider.", "family": "a circuit breaker protecting an LLM provider", "kind": "paraphrase"}
+{"prompt": "Share a concrete use case for a circuit breaker protecting an LLM provider.", "family": "a circuit breaker protecting an LLM provider", "kind": "paraphrase"}
+{"prompt": "What key advantage does a circuit breaker protecting an LLM provider provide?", "family": "a circuit breaker protecting an LLM provider", "kind": "paraphrase"}
+{"prompt": "What can go wrong with a circuit breaker protecting an LLM provider?", "family": "a circuit breaker protecting an LLM provider", "kind": "paraphrase"}
+{"prompt": "Which signals would reveal the state of a circuit breaker protecting an LLM provider?", "family": "a circuit breaker protecting an LLM provider", "kind": "paraphrase"}
+{"prompt": "Put a circuit breaker protecting an LLM provider into a brief two sentence summary.", "family": "a circuit breaker protecting an LLM provider", "kind": "paraphrase"}
+{"prompt": "Which measurement captures the effect of a circuit breaker protecting an LLM provider best?", "family": "a circuit breaker protecting an LLM provider", "kind": "paraphrase"}
+{"prompt": "Under what conditions is a circuit breaker protecting an LLM provider useful?", "family": "a circuit breaker protecting an LLM provider", "kind": "paraphrase"}
+{"prompt": "List a few steps to set up a circuit breaker protecting an LLM provider.", "family": "a circuit breaker protecting an LLM provider", "kind": "paraphrase"}
+{"prompt": "What is the biggest compromise involved in a circuit breaker protecting an LLM provider?", "family": "a circuit breaker protecting an LLM provider", "kind": "paraphrase"}
+{"prompt": "Explain a token bucket limiting API traffic in plain language.", "family": "a token bucket limiting API traffic", "kind": "base"}
+{"prompt": "Give one practical example of a token bucket limiting API traffic.", "family": "a token bucket limiting API traffic", "kind": "base"}
+{"prompt": "What is the main benefit of a token bucket limiting API traffic?", "family": "a token bucket limiting API traffic", "kind": "base"}
+{"prompt": "Describe a common failure mode of a token bucket limiting API traffic.", "family": "a token bucket limiting API traffic", "kind": "base"}
+{"prompt": "How would you monitor a token bucket limiting API traffic?", "family": "a token bucket limiting API traffic", "kind": "base"}
+{"prompt": "Summarize a token bucket limiting API traffic in two sentences.", "family": "a token bucket limiting API traffic", "kind": "base"}
+{"prompt": "What metric best shows the impact of a token bucket limiting API traffic?", "family": "a token bucket limiting API traffic", "kind": "base"}
+{"prompt": "When should a team use a token bucket limiting API traffic?", "family": "a token bucket limiting API traffic", "kind": "base"}
+{"prompt": "Give a short checklist for a token bucket limiting API traffic.", "family": "a token bucket limiting API traffic", "kind": "base"}
+{"prompt": "What tradeoff does a token bucket limiting API traffic introduce?", "family": "a token bucket limiting API traffic", "kind": "base"}
+{"prompt": "Describe how to test a token bucket limiting API traffic.", "family": "a token bucket limiting API traffic", "kind": "base"}
+{"prompt": "Write a concise operator note about a token bucket limiting API traffic.", "family": "a token bucket limiting API traffic", "kind": "base"}
+{"prompt": "How does a token bucket limiting API traffic affect latency?", "family": "a token bucket limiting API traffic", "kind": "base"}
+{"prompt": "What configuration matters most for a token bucket limiting API traffic?", "family": "a token bucket limiting API traffic", "kind": "base"}
+{"prompt": "Explain the recovery path for a token bucket limiting API traffic.", "family": "a token bucket limiting API traffic", "kind": "base"}
+{"prompt": "In simple terms, explain a token bucket limiting API traffic.", "family": "a token bucket limiting API traffic", "kind": "paraphrase"}
+{"prompt": "Share a concrete use case for a token bucket limiting API traffic.", "family": "a token bucket limiting API traffic", "kind": "paraphrase"}
+{"prompt": "What key advantage does a token bucket limiting API traffic provide?", "family": "a token bucket limiting API traffic", "kind": "paraphrase"}
+{"prompt": "What can go wrong with a token bucket limiting API traffic?", "family": "a token bucket limiting API traffic", "kind": "paraphrase"}
+{"prompt": "Which signals would reveal the state of a token bucket limiting API traffic?", "family": "a token bucket limiting API traffic", "kind": "paraphrase"}
+{"prompt": "Put a token bucket limiting API traffic into a brief two sentence summary.", "family": "a token bucket limiting API traffic", "kind": "paraphrase"}
+{"prompt": "Which measurement captures the effect of a token bucket limiting API traffic best?", "family": "a token bucket limiting API traffic", "kind": "paraphrase"}
+{"prompt": "Under what conditions is a token bucket limiting API traffic useful?", "family": "a token bucket limiting API traffic", "kind": "paraphrase"}
+{"prompt": "List a few steps to set up a token bucket limiting API traffic.", "family": "a token bucket limiting API traffic", "kind": "paraphrase"}
+{"prompt": "What is the biggest compromise involved in a token bucket limiting API traffic?", "family": "a token bucket limiting API traffic", "kind": "paraphrase"}
+{"prompt": "Explain a semantic cache for repeated prompts in plain language.", "family": "a semantic cache for repeated prompts", "kind": "base"}
+{"prompt": "Give one practical example of a semantic cache for repeated prompts.", "family": "a semantic cache for repeated prompts", "kind": "base"}
+{"prompt": "What is the main benefit of a semantic cache for repeated prompts?", "family": "a semantic cache for repeated prompts", "kind": "base"}
+{"prompt": "Describe a common failure mode of a semantic cache for repeated prompts.", "family": "a semantic cache for repeated prompts", "kind": "base"}
+{"prompt": "How would you monitor a semantic cache for repeated prompts?", "family": "a semantic cache for repeated prompts", "kind": "base"}
+{"prompt": "Summarize a semantic cache for repeated prompts in two sentences.", "family": "a semantic cache for repeated prompts", "kind": "base"}
+{"prompt": "What metric best shows the impact of a semantic cache for repeated prompts?", "family": "a semantic cache for repeated prompts", "kind": "base"}
+{"prompt": "When should a team use a semantic cache for repeated prompts?", "family": "a semantic cache for repeated prompts", "kind": "base"}
+{"prompt": "Give a short checklist for a semantic cache for repeated prompts.", "family": "a semantic cache for repeated prompts", "kind": "base"}
+{"prompt": "What tradeoff does a semantic cache for repeated prompts introduce?", "family": "a semantic cache for repeated prompts", "kind": "base"}
+{"prompt": "Describe how to test a semantic cache for repeated prompts.", "family": "a semantic cache for repeated prompts", "kind": "base"}
+{"prompt": "Write a concise operator note about a semantic cache for repeated prompts.", "family": "a semantic cache for repeated prompts", "kind": "base"}
+{"prompt": "How does a semantic cache for repeated prompts affect latency?", "family": "a semantic cache for repeated prompts", "kind": "base"}
+{"prompt": "What configuration matters most for a semantic cache for repeated prompts?", "family": "a semantic cache for repeated prompts", "kind": "base"}
+{"prompt": "Explain the recovery path for a semantic cache for repeated prompts.", "family": "a semantic cache for repeated prompts", "kind": "base"}
+{"prompt": "In simple terms, explain a semantic cache for repeated prompts.", "family": "a semantic cache for repeated prompts", "kind": "paraphrase"}
+{"prompt": "Share a concrete use case for a semantic cache for repeated prompts.", "family": "a semantic cache for repeated prompts", "kind": "paraphrase"}
+{"prompt": "What key advantage does a semantic cache for repeated prompts provide?", "family": "a semantic cache for repeated prompts", "kind": "paraphrase"}
+{"prompt": "What can go wrong with a semantic cache for repeated prompts?", "family": "a semantic cache for repeated prompts", "kind": "paraphrase"}
+{"prompt": "Which signals would reveal the state of a semantic cache for repeated prompts?", "family": "a semantic cache for repeated prompts", "kind": "paraphrase"}
+{"prompt": "Put a semantic cache for repeated prompts into a brief two sentence summary.", "family": "a semantic cache for repeated prompts", "kind": "paraphrase"}
+{"prompt": "Which measurement captures the effect of a semantic cache for repeated prompts best?", "family": "a semantic cache for repeated prompts", "kind": "paraphrase"}
+{"prompt": "Under what conditions is a semantic cache for repeated prompts useful?", "family": "a semantic cache for repeated prompts", "kind": "paraphrase"}
+{"prompt": "List a few steps to set up a semantic cache for repeated prompts.", "family": "a semantic cache for repeated prompts", "kind": "paraphrase"}
+{"prompt": "What is the biggest compromise involved in a semantic cache for repeated prompts?", "family": "a semantic cache for repeated prompts", "kind": "paraphrase"}
+{"prompt": "Explain a failover router with three providers in plain language.", "family": "a failover router with three providers", "kind": "base"}
+{"prompt": "Give one practical example of a failover router with three providers.", "family": "a failover router with three providers", "kind": "base"}
+{"prompt": "What is the main benefit of a failover router with three providers?", "family": "a failover router with three providers", "kind": "base"}
+{"prompt": "Describe a common failure mode of a failover router with three providers.", "family": "a failover router with three providers", "kind": "base"}
+{"prompt": "How would you monitor a failover router with three providers?", "family": "a failover router with three providers", "kind": "base"}
+{"prompt": "Summarize a failover router with three providers in two sentences.", "family": "a failover router with three providers", "kind": "base"}
+{"prompt": "What metric best shows the impact of a failover router with three providers?", "family": "a failover router with three providers", "kind": "base"}
+{"prompt": "When should a team use a failover router with three providers?", "family": "a failover router with three providers", "kind": "base"}
+{"prompt": "Give a short checklist for a failover router with three providers.", "family": "a failover router with three providers", "kind": "base"}
+{"prompt": "What tradeoff does a failover router with three providers introduce?", "family": "a failover router with three providers", "kind": "base"}
+{"prompt": "Describe how to test a failover router with three providers.", "family": "a failover router with three providers", "kind": "base"}
+{"prompt": "Write a concise operator note about a failover router with three providers.", "family": "a failover router with three providers", "kind": "base"}
+{"prompt": "How does a failover router with three providers affect latency?", "family": "a failover router with three providers", "kind": "base"}
+{"prompt": "What configuration matters most for a failover router with three providers?", "family": "a failover router with three providers", "kind": "base"}
+{"prompt": "Explain the recovery path for a failover router with three providers.", "family": "a failover router with three providers", "kind": "base"}
+{"prompt": "In simple terms, explain a failover router with three providers.", "family": "a failover router with three providers", "kind": "paraphrase"}
+{"prompt": "Share a concrete use case for a failover router with three providers.", "family": "a failover router with three providers", "kind": "paraphrase"}
+{"prompt": "What key advantage does a failover router with three providers provide?", "family": "a failover router with three providers", "kind": "paraphrase"}
+{"prompt": "What can go wrong with a failover router with three providers?", "family": "a failover router with three providers", "kind": "paraphrase"}
+{"prompt": "Which signals would reveal the state of a failover router with three providers?", "family": "a failover router with three providers", "kind": "paraphrase"}
+{"prompt": "Put a failover router with three providers into a brief two sentence summary.", "family": "a failover router with three providers", "kind": "paraphrase"}
+{"prompt": "Which measurement captures the effect of a failover router with three providers best?", "family": "a failover router with three providers", "kind": "paraphrase"}
+{"prompt": "Under what conditions is a failover router with three providers useful?", "family": "a failover router with three providers", "kind": "paraphrase"}
+{"prompt": "List a few steps to set up a failover router with three providers.", "family": "a failover router with three providers", "kind": "paraphrase"}
+{"prompt": "What is the biggest compromise involved in a failover router with three providers?", "family": "a failover router with three providers", "kind": "paraphrase"}
+{"prompt": "Explain a Prometheus latency histogram in plain language.", "family": "a Prometheus latency histogram", "kind": "base"}
+{"prompt": "Give one practical example of a Prometheus latency histogram.", "family": "a Prometheus latency histogram", "kind": "base"}
+{"prompt": "What is the main benefit of a Prometheus latency histogram?", "family": "a Prometheus latency histogram", "kind": "base"}
+{"prompt": "Describe a common failure mode of a Prometheus latency histogram.", "family": "a Prometheus latency histogram", "kind": "base"}
+{"prompt": "How would you monitor a Prometheus latency histogram?", "family": "a Prometheus latency histogram", "kind": "base"}
+{"prompt": "Summarize a Prometheus latency histogram in two sentences.", "family": "a Prometheus latency histogram", "kind": "base"}
+{"prompt": "What metric best shows the impact of a Prometheus latency histogram?", "family": "a Prometheus latency histogram", "kind": "base"}
+{"prompt": "When should a team use a Prometheus latency histogram?", "family": "a Prometheus latency histogram", "kind": "base"}
+{"prompt": "Give a short checklist for a Prometheus latency histogram.", "family": "a Prometheus latency histogram", "kind": "base"}
+{"prompt": "What tradeoff does a Prometheus latency histogram introduce?", "family": "a Prometheus latency histogram", "kind": "base"}
+{"prompt": "Describe how to test a Prometheus latency histogram.", "family": "a Prometheus latency histogram", "kind": "base"}
+{"prompt": "Write a concise operator note about a Prometheus latency histogram.", "family": "a Prometheus latency histogram", "kind": "base"}
+{"prompt": "How does a Prometheus latency histogram affect latency?", "family": "a Prometheus latency histogram", "kind": "base"}
+{"prompt": "What configuration matters most for a Prometheus latency histogram?", "family": "a Prometheus latency histogram", "kind": "base"}
+{"prompt": "Explain the recovery path for a Prometheus latency histogram.", "family": "a Prometheus latency histogram", "kind": "base"}
+{"prompt": "In simple terms, explain a Prometheus latency histogram.", "family": "a Prometheus latency histogram", "kind": "paraphrase"}
+{"prompt": "Share a concrete use case for a Prometheus latency histogram.", "family": "a Prometheus latency histogram", "kind": "paraphrase"}
+{"prompt": "What key advantage does a Prometheus latency histogram provide?", "family": "a Prometheus latency histogram", "kind": "paraphrase"}
+{"prompt": "What can go wrong with a Prometheus latency histogram?", "family": "a Prometheus latency histogram", "kind": "paraphrase"}
+{"prompt": "Which signals would reveal the state of a Prometheus latency histogram?", "family": "a Prometheus latency histogram", "kind": "paraphrase"}
+{"prompt": "Put a Prometheus latency histogram into a brief two sentence summary.", "family": "a Prometheus latency histogram", "kind": "paraphrase"}
+{"prompt": "Which measurement captures the effect of a Prometheus latency histogram best?", "family": "a Prometheus latency histogram", "kind": "paraphrase"}
+{"prompt": "Under what conditions is a Prometheus latency histogram useful?", "family": "a Prometheus latency histogram", "kind": "paraphrase"}
+{"prompt": "List a few steps to set up a Prometheus latency histogram.", "family": "a Prometheus latency histogram", "kind": "paraphrase"}
+{"prompt": "What is the biggest compromise involved in a Prometheus latency histogram?", "family": "a Prometheus latency histogram", "kind": "paraphrase"}
+{"prompt": "Explain a health check for a model endpoint in plain language.", "family": "a health check for a model endpoint", "kind": "base"}
+{"prompt": "Give one practical example of a health check for a model endpoint.", "family": "a health check for a model endpoint", "kind": "base"}
+{"prompt": "What is the main benefit of a health check for a model endpoint?", "family": "a health check for a model endpoint", "kind": "base"}
+{"prompt": "Describe a common failure mode of a health check for a model endpoint.", "family": "a health check for a model endpoint", "kind": "base"}
+{"prompt": "How would you monitor a health check for a model endpoint?", "family": "a health check for a model endpoint", "kind": "base"}
+{"prompt": "Summarize a health check for a model endpoint in two sentences.", "family": "a health check for a model endpoint", "kind": "base"}
+{"prompt": "What metric best shows the impact of a health check for a model endpoint?", "family": "a health check for a model endpoint", "kind": "base"}
+{"prompt": "When should a team use a health check for a model endpoint?", "family": "a health check for a model endpoint", "kind": "base"}
+{"prompt": "Give a short checklist for a health check for a model endpoint.", "family": "a health check for a model endpoint", "kind": "base"}
+{"prompt": "What tradeoff does a health check for a model endpoint introduce?", "family": "a health check for a model endpoint", "kind": "base"}
+{"prompt": "Describe how to test a health check for a model endpoint.", "family": "a health check for a model endpoint", "kind": "base"}
+{"prompt": "Write a concise operator note about a health check for a model endpoint.", "family": "a health check for a model endpoint", "kind": "base"}
+{"prompt": "How does a health check for a model endpoint affect latency?", "family": "a health check for a model endpoint", "kind": "base"}
+{"prompt": "What configuration matters most for a health check for a model endpoint?", "family": "a health check for a model endpoint", "kind": "base"}
+{"prompt": "Explain the recovery path for a health check for a model endpoint.", "family": "a health check for a model endpoint", "kind": "base"}
+{"prompt": "In simple terms, explain a health check for a model endpoint.", "family": "a health check for a model endpoint", "kind": "paraphrase"}
+{"prompt": "Share a concrete use case for a health check for a model endpoint.", "family": "a health check for a model endpoint", "kind": "paraphrase"}
+{"prompt": "What key advantage does a health check for a model endpoint provide?", "family": "a health check for a model endpoint", "kind": "paraphrase"}
+{"prompt": "What can go wrong with a health check for a model endpoint?", "family": "a health check for a model endpoint", "kind": "paraphrase"}
+{"prompt": "Which signals would reveal the state of a health check for a model endpoint?", "family": "a health check for a model endpoint", "kind": "paraphrase"}
+{"prompt": "Put a health check for a model endpoint into a brief two sentence summary.", "family": "a health check for a model endpoint", "kind": "paraphrase"}
+{"prompt": "Which measurement captures the effect of a health check for a model endpoint best?", "family": "a health check for a model endpoint", "kind": "paraphrase"}
+{"prompt": "Under what conditions is a health check for a model endpoint useful?", "family": "a health check for a model endpoint", "kind": "paraphrase"}
+{"prompt": "List a few steps to set up a health check for a model endpoint.", "family": "a health check for a model endpoint", "kind": "paraphrase"}
+{"prompt": "What is the biggest compromise involved in a health check for a model endpoint?", "family": "a health check for a model endpoint", "kind": "paraphrase"}
+{"prompt": "Explain an exponential retry with jitter in plain language.", "family": "an exponential retry with jitter", "kind": "base"}
+{"prompt": "Give one practical example of an exponential retry with jitter.", "family": "an exponential retry with jitter", "kind": "base"}
+{"prompt": "What is the main benefit of an exponential retry with jitter?", "family": "an exponential retry with jitter", "kind": "base"}
+{"prompt": "Describe a common failure mode of an exponential retry with jitter.", "family": "an exponential retry with jitter", "kind": "base"}
+{"prompt": "How would you monitor an exponential retry with jitter?", "family": "an exponential retry with jitter", "kind": "base"}
+{"prompt": "Summarize an exponential retry with jitter in two sentences.", "family": "an exponential retry with jitter", "kind": "base"}
+{"prompt": "What metric best shows the impact of an exponential retry with jitter?", "family": "an exponential retry with jitter", "kind": "base"}
+{"prompt": "When should a team use an exponential retry with jitter?", "family": "an exponential retry with jitter", "kind": "base"}
+{"prompt": "Give a short checklist for an exponential retry with jitter.", "family": "an exponential retry with jitter", "kind": "base"}
+{"prompt": "What tradeoff does an exponential retry with jitter introduce?", "family": "an exponential retry with jitter", "kind": "base"}
+{"prompt": "Describe how to test an exponential retry with jitter.", "family": "an exponential retry with jitter", "kind": "base"}
+{"prompt": "Write a concise operator note about an exponential retry with jitter.", "family": "an exponential retry with jitter", "kind": "base"}
+{"prompt": "How does an exponential retry with jitter affect latency?", "family": "an exponential retry with jitter", "kind": "base"}
+{"prompt": "What configuration matters most for an exponential retry with jitter?", "family": "an exponential retry with jitter", "kind": "base"}
+{"prompt": "Explain the recovery path for an exponential retry with jitter.", "family": "an exponential retry with jitter", "kind": "base"}
+{"prompt": "In simple terms, explain an exponential retry with jitter.", "family": "an exponential retry with jitter", "kind": "paraphrase"}
+{"prompt": "Share a concrete use case for an exponential retry with jitter.", "family": "an exponential retry with jitter", "kind": "paraphrase"}
+{"prompt": "What key advantage does an exponential retry with jitter provide?", "family": "an exponential retry with jitter", "kind": "paraphrase"}
+{"prompt": "What can go wrong with an exponential retry with jitter?", "family": "an exponential retry with jitter", "kind": "paraphrase"}
+{"prompt": "Which signals would reveal the state of an exponential retry with jitter?", "family": "an exponential retry with jitter", "kind": "paraphrase"}
+{"prompt": "Put an exponential retry with jitter into a brief two sentence summary.", "family": "an exponential retry with jitter", "kind": "paraphrase"}
+{"prompt": "Which measurement captures the effect of an exponential retry with jitter best?", "family": "an exponential retry with jitter", "kind": "paraphrase"}
+{"prompt": "Under what conditions is an exponential retry with jitter useful?", "family": "an exponential retry with jitter", "kind": "paraphrase"}
+{"prompt": "List a few steps to set up an exponential retry with jitter.", "family": "an exponential retry with jitter", "kind": "paraphrase"}
+{"prompt": "What is the biggest compromise involved in an exponential retry with jitter?", "family": "an exponential retry with jitter", "kind": "paraphrase"}
+{"prompt": "Explain a request ID across services in plain language.", "family": "a request ID across services", "kind": "base"}
+{"prompt": "Give one practical example of a request ID across services.", "family": "a request ID across services", "kind": "base"}
+{"prompt": "What is the main benefit of a request ID across services?", "family": "a request ID across services", "kind": "base"}
+{"prompt": "Describe a common failure mode of a request ID across services.", "family": "a request ID across services", "kind": "base"}
+{"prompt": "How would you monitor a request ID across services?", "family": "a request ID across services", "kind": "base"}
+{"prompt": "Summarize a request ID across services in two sentences.", "family": "a request ID across services", "kind": "base"}
+{"prompt": "What metric best shows the impact of a request ID across services?", "family": "a request ID across services", "kind": "base"}
+{"prompt": "When should a team use a request ID across services?", "family": "a request ID across services", "kind": "base"}
+{"prompt": "Give a short checklist for a request ID across services.", "family": "a request ID across services", "kind": "base"}
+{"prompt": "What tradeoff does a request ID across services introduce?", "family": "a request ID across services", "kind": "base"}
+{"prompt": "Describe how to test a request ID across services.", "family": "a request ID across services", "kind": "base"}
+{"prompt": "Write a concise operator note about a request ID across services.", "family": "a request ID across services", "kind": "base"}
+{"prompt": "How does a request ID across services affect latency?", "family": "a request ID across services", "kind": "base"}
+{"prompt": "What configuration matters most for a request ID across services?", "family": "a request ID across services", "kind": "base"}
+{"prompt": "Explain the recovery path for a request ID across services.", "family": "a request ID across services", "kind": "base"}
+{"prompt": "In simple terms, explain a request ID across services.", "family": "a request ID across services", "kind": "paraphrase"}
+{"prompt": "Share a concrete use case for a request ID across services.", "family": "a request ID across services", "kind": "paraphrase"}
+{"prompt": "What key advantage does a request ID across services provide?", "family": "a request ID across services", "kind": "paraphrase"}
+{"prompt": "What can go wrong with a request ID across services?", "family": "a request ID across services", "kind": "paraphrase"}
+{"prompt": "Which signals would reveal the state of a request ID across services?", "family": "a request ID across services", "kind": "paraphrase"}
+{"prompt": "Put a request ID across services into a brief two sentence summary.", "family": "a request ID across services", "kind": "paraphrase"}
+{"prompt": "Which measurement captures the effect of a request ID across services best?", "family": "a request ID across services", "kind": "paraphrase"}
+{"prompt": "Under what conditions is a request ID across services useful?", "family": "a request ID across services", "kind": "paraphrase"}
+{"prompt": "List a few steps to set up a request ID across services.", "family": "a request ID across services", "kind": "paraphrase"}
+{"prompt": "What is the biggest compromise involved in a request ID across services?", "family": "a request ID across services", "kind": "paraphrase"}
+{"prompt": "Explain a Redis vector search index in plain language.", "family": "a Redis vector search index", "kind": "base"}
+{"prompt": "Give one practical example of a Redis vector search index.", "family": "a Redis vector search index", "kind": "base"}
+{"prompt": "What is the main benefit of a Redis vector search index?", "family": "a Redis vector search index", "kind": "base"}
+{"prompt": "Describe a common failure mode of a Redis vector search index.", "family": "a Redis vector search index", "kind": "base"}
+{"prompt": "How would you monitor a Redis vector search index?", "family": "a Redis vector search index", "kind": "base"}
+{"prompt": "Summarize a Redis vector search index in two sentences.", "family": "a Redis vector search index", "kind": "base"}
+{"prompt": "What metric best shows the impact of a Redis vector search index?", "family": "a Redis vector search index", "kind": "base"}
+{"prompt": "When should a team use a Redis vector search index?", "family": "a Redis vector search index", "kind": "base"}
+{"prompt": "Give a short checklist for a Redis vector search index.", "family": "a Redis vector search index", "kind": "base"}
+{"prompt": "What tradeoff does a Redis vector search index introduce?", "family": "a Redis vector search index", "kind": "base"}
+{"prompt": "Describe how to test a Redis vector search index.", "family": "a Redis vector search index", "kind": "base"}
+{"prompt": "Write a concise operator note about a Redis vector search index.", "family": "a Redis vector search index", "kind": "base"}
+{"prompt": "How does a Redis vector search index affect latency?", "family": "a Redis vector search index", "kind": "base"}
+{"prompt": "What configuration matters most for a Redis vector search index?", "family": "a Redis vector search index", "kind": "base"}
+{"prompt": "Explain the recovery path for a Redis vector search index.", "family": "a Redis vector search index", "kind": "base"}
+{"prompt": "In simple terms, explain a Redis vector search index.", "family": "a Redis vector search index", "kind": "paraphrase"}
+{"prompt": "Share a concrete use case for a Redis vector search index.", "family": "a Redis vector search index", "kind": "paraphrase"}
+{"prompt": "What key advantage does a Redis vector search index provide?", "family": "a Redis vector search index", "kind": "paraphrase"}
+{"prompt": "What can go wrong with a Redis vector search index?", "family": "a Redis vector search index", "kind": "paraphrase"}
+{"prompt": "Which signals would reveal the state of a Redis vector search index?", "family": "a Redis vector search index", "kind": "paraphrase"}
+{"prompt": "Put a Redis vector search index into a brief two sentence summary.", "family": "a Redis vector search index", "kind": "paraphrase"}
+{"prompt": "Which measurement captures the effect of a Redis vector search index best?", "family": "a Redis vector search index", "kind": "paraphrase"}
+{"prompt": "Under what conditions is a Redis vector search index useful?", "family": "a Redis vector search index", "kind": "paraphrase"}
+{"prompt": "List a few steps to set up a Redis vector search index.", "family": "a Redis vector search index", "kind": "paraphrase"}
+{"prompt": "What is the biggest compromise involved in a Redis vector search index?", "family": "a Redis vector search index", "kind": "paraphrase"}
+{"prompt": "Explain a chaos test that disables a provider in plain language.", "family": "a chaos test that disables a provider", "kind": "base"}
+{"prompt": "Give one practical example of a chaos test that disables a provider.", "family": "a chaos test that disables a provider", "kind": "base"}
+{"prompt": "What is the main benefit of a chaos test that disables a provider?", "family": "a chaos test that disables a provider", "kind": "base"}
+{"prompt": "Describe a common failure mode of a chaos test that disables a provider.", "family": "a chaos test that disables a provider", "kind": "base"}
+{"prompt": "How would you monitor a chaos test that disables a provider?", "family": "a chaos test that disables a provider", "kind": "base"}
+{"prompt": "Summarize a chaos test that disables a provider in two sentences.", "family": "a chaos test that disables a provider", "kind": "base"}
+{"prompt": "What metric best shows the impact of a chaos test that disables a provider?", "family": "a chaos test that disables a provider", "kind": "base"}
+{"prompt": "When should a team use a chaos test that disables a provider?", "family": "a chaos test that disables a provider", "kind": "base"}
+{"prompt": "Give a short checklist for a chaos test that disables a provider.", "family": "a chaos test that disables a provider", "kind": "base"}
+{"prompt": "What tradeoff does a chaos test that disables a provider introduce?", "family": "a chaos test that disables a provider", "kind": "base"}
+{"prompt": "Describe how to test a chaos test that disables a provider.", "family": "a chaos test that disables a provider", "kind": "base"}
+{"prompt": "Write a concise operator note about a chaos test that disables a provider.", "family": "a chaos test that disables a provider", "kind": "base"}
+{"prompt": "How does a chaos test that disables a provider affect latency?", "family": "a chaos test that disables a provider", "kind": "base"}
+{"prompt": "What configuration matters most for a chaos test that disables a provider?", "family": "a chaos test that disables a provider", "kind": "base"}
+{"prompt": "Explain the recovery path for a chaos test that disables a provider.", "family": "a chaos test that disables a provider", "kind": "base"}
+{"prompt": "In simple terms, explain a chaos test that disables a provider.", "family": "a chaos test that disables a provider", "kind": "paraphrase"}
+{"prompt": "Share a concrete use case for a chaos test that disables a provider.", "family": "a chaos test that disables a provider", "kind": "paraphrase"}
+{"prompt": "What key advantage does a chaos test that disables a provider provide?", "family": "a chaos test that disables a provider", "kind": "paraphrase"}
+{"prompt": "What can go wrong with a chaos test that disables a provider?", "family": "a chaos test that disables a provider", "kind": "paraphrase"}
+{"prompt": "Which signals would reveal the state of a chaos test that disables a provider?", "family": "a chaos test that disables a provider", "kind": "paraphrase"}
+{"prompt": "Put a chaos test that disables a provider into a brief two sentence summary.", "family": "a chaos test that disables a provider", "kind": "paraphrase"}
+{"prompt": "Which measurement captures the effect of a chaos test that disables a provider best?", "family": "a chaos test that disables a provider", "kind": "paraphrase"}
+{"prompt": "Under what conditions is a chaos test that disables a provider useful?", "family": "a chaos test that disables a provider", "kind": "paraphrase"}
+{"prompt": "List a few steps to set up a chaos test that disables a provider.", "family": "a chaos test that disables a provider", "kind": "paraphrase"}
+{"prompt": "What is the biggest compromise involved in a chaos test that disables a provider?", "family": "a chaos test that disables a provider", "kind": "paraphrase"}
+{"prompt": "Explain a dashboard for gateway operators in plain language.", "family": "a dashboard for gateway operators", "kind": "base"}
+{"prompt": "Give one practical example of a dashboard for gateway operators.", "family": "a dashboard for gateway operators", "kind": "base"}
+{"prompt": "What is the main benefit of a dashboard for gateway operators?", "family": "a dashboard for gateway operators", "kind": "base"}
+{"prompt": "Describe a common failure mode of a dashboard for gateway operators.", "family": "a dashboard for gateway operators", "kind": "base"}
+{"prompt": "How would you monitor a dashboard for gateway operators?", "family": "a dashboard for gateway operators", "kind": "base"}
+{"prompt": "Summarize a dashboard for gateway operators in two sentences.", "family": "a dashboard for gateway operators", "kind": "base"}
+{"prompt": "What metric best shows the impact of a dashboard for gateway operators?", "family": "a dashboard for gateway operators", "kind": "base"}
+{"prompt": "When should a team use a dashboard for gateway operators?", "family": "a dashboard for gateway operators", "kind": "base"}
+{"prompt": "Give a short checklist for a dashboard for gateway operators.", "family": "a dashboard for gateway operators", "kind": "base"}
+{"prompt": "What tradeoff does a dashboard for gateway operators introduce?", "family": "a dashboard for gateway operators", "kind": "base"}
+{"prompt": "Describe how to test a dashboard for gateway operators.", "family": "a dashboard for gateway operators", "kind": "base"}
+{"prompt": "Write a concise operator note about a dashboard for gateway operators.", "family": "a dashboard for gateway operators", "kind": "base"}
+{"prompt": "How does a dashboard for gateway operators affect latency?", "family": "a dashboard for gateway operators", "kind": "base"}
+{"prompt": "What configuration matters most for a dashboard for gateway operators?", "family": "a dashboard for gateway operators", "kind": "base"}
+{"prompt": "Explain the recovery path for a dashboard for gateway operators.", "family": "a dashboard for gateway operators", "kind": "base"}
+{"prompt": "In simple terms, explain a dashboard for gateway operators.", "family": "a dashboard for gateway operators", "kind": "paraphrase"}
+{"prompt": "Share a concrete use case for a dashboard for gateway operators.", "family": "a dashboard for gateway operators", "kind": "paraphrase"}
+{"prompt": "What key advantage does a dashboard for gateway operators provide?", "family": "a dashboard for gateway operators", "kind": "paraphrase"}
+{"prompt": "What can go wrong with a dashboard for gateway operators?", "family": "a dashboard for gateway operators", "kind": "paraphrase"}
+{"prompt": "Which signals would reveal the state of a dashboard for gateway operators?", "family": "a dashboard for gateway operators", "kind": "paraphrase"}
+{"prompt": "Put a dashboard for gateway operators into a brief two sentence summary.", "family": "a dashboard for gateway operators", "kind": "paraphrase"}
+{"prompt": "Which measurement captures the effect of a dashboard for gateway operators best?", "family": "a dashboard for gateway operators", "kind": "paraphrase"}
+{"prompt": "Under what conditions is a dashboard for gateway operators useful?", "family": "a dashboard for gateway operators", "kind": "paraphrase"}
+{"prompt": "List a few steps to set up a dashboard for gateway operators.", "family": "a dashboard for gateway operators", "kind": "paraphrase"}
+{"prompt": "What is the biggest compromise involved in a dashboard for gateway operators?", "family": "a dashboard for gateway operators", "kind": "paraphrase"}
+{"prompt": "Explain a timeout on external API calls in plain language.", "family": "a timeout on external API calls", "kind": "base"}
+{"prompt": "Give one practical example of a timeout on external API calls.", "family": "a timeout on external API calls", "kind": "base"}
+{"prompt": "What is the main benefit of a timeout on external API calls?", "family": "a timeout on external API calls", "kind": "base"}
+{"prompt": "Describe a common failure mode of a timeout on external API calls.", "family": "a timeout on external API calls", "kind": "base"}
+{"prompt": "How would you monitor a timeout on external API calls?", "family": "a timeout on external API calls", "kind": "base"}
+{"prompt": "Summarize a timeout on external API calls in two sentences.", "family": "a timeout on external API calls", "kind": "base"}
+{"prompt": "What metric best shows the impact of a timeout on external API calls?", "family": "a timeout on external API calls", "kind": "base"}
+{"prompt": "When should a team use a timeout on external API calls?", "family": "a timeout on external API calls", "kind": "base"}
+{"prompt": "Give a short checklist for a timeout on external API calls.", "family": "a timeout on external API calls", "kind": "base"}
+{"prompt": "What tradeoff does a timeout on external API calls introduce?", "family": "a timeout on external API calls", "kind": "base"}
+{"prompt": "Describe how to test a timeout on external API calls.", "family": "a timeout on external API calls", "kind": "base"}
+{"prompt": "Write a concise operator note about a timeout on external API calls.", "family": "a timeout on external API calls", "kind": "base"}
+{"prompt": "How does a timeout on external API calls affect latency?", "family": "a timeout on external API calls", "kind": "base"}
+{"prompt": "What configuration matters most for a timeout on external API calls?", "family": "a timeout on external API calls", "kind": "base"}
+{"prompt": "Explain the recovery path for a timeout on external API calls.", "family": "a timeout on external API calls", "kind": "base"}
+{"prompt": "In simple terms, explain a timeout on external API calls.", "family": "a timeout on external API calls", "kind": "paraphrase"}
+{"prompt": "Share a concrete use case for a timeout on external API calls.", "family": "a timeout on external API calls", "kind": "paraphrase"}
+{"prompt": "What key advantage does a timeout on external API calls provide?", "family": "a timeout on external API calls", "kind": "paraphrase"}
+{"prompt": "What can go wrong with a timeout on external API calls?", "family": "a timeout on external API calls", "kind": "paraphrase"}
+{"prompt": "Which signals would reveal the state of a timeout on external API calls?", "family": "a timeout on external API calls", "kind": "paraphrase"}
+{"prompt": "Put a timeout on external API calls into a brief two sentence summary.", "family": "a timeout on external API calls", "kind": "paraphrase"}
+{"prompt": "Which measurement captures the effect of a timeout on external API calls best?", "family": "a timeout on external API calls", "kind": "paraphrase"}
+{"prompt": "Under what conditions is a timeout on external API calls useful?", "family": "a timeout on external API calls", "kind": "paraphrase"}
+{"prompt": "List a few steps to set up a timeout on external API calls.", "family": "a timeout on external API calls", "kind": "paraphrase"}
+{"prompt": "What is the biggest compromise involved in a timeout on external API calls?", "family": "a timeout on external API calls", "kind": "paraphrase"}
